@@ -27,10 +27,22 @@ while i >= 1:
     print(i)
     i -= 1
 
-    
+
 n = int(input("Enter number: "))
 i = 1
 
 while i <= 10:
     print(n, "x", i, "=", n * i)
     i += 1
+
+    #factorial of number"
+    n = int(input("Enter number: "))
+
+fact = 1
+i = 1
+
+while i <= n:
+    fact *= i
+    i += 1
+
+print("Factorial =", fact)
