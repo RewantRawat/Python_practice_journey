@@ -28,3 +28,41 @@ print("Age:", age)
 print("Course:", course)
 print("Fees:", fees)
 print("Passed:", passed)
+
+#example of add,sub,ml,div
+
+a=10
+b=5
+
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+
+print("Addition:",add)
+print("Subtraction",a-b)
+print("Multiply",a*b)
+print("Divide",a/b)
+
+#INPUT#
+
+name=input("Enter your name:")
+age=input("Enter your age:")
+
+print("Hello",name)
+print("You are",age,"years old")
+
+#area of rectangle#
+l=int(input("Enter the length of rectangle:"))
+b=int(input("Enter the breadth of the rectangle:"))
+area =l*b
+print("Area of reactangle is:",area)
+      
+#Calculate simple interest#
+
+P=int(input("Enter the principal amount:"))
+R=int(input("Enter the rate:"))
+T=int(input("Enter the time:"))
+
+Simple_interest=P*R*T/100
+print("The Simple interest is:",Simple_interest)
